@@ -5,7 +5,8 @@ enum Day
 
 public class Main 
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Day day = Day.WEDNESDAY;
         System.out.println(day.ordinal()); 
     }
